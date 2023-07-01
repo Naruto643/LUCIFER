@@ -16,12 +16,6 @@ from datetime import date, datetime
 import pytz
 from aiohttp import web
 
-class Bot(Client):
-
-    def __init__(self):
-        super().__init__(
-        )
-
     async def start(self):
         b_users, b_chats = await db.get_banned()
         temp.BANNED_USERS = b_users
