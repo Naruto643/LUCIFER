@@ -10,7 +10,6 @@ logging.getLogger("imdbpy").setLevel(logging.ERROR)
 
 from pyrogram import Client, __version__, filters
 from pyrogram.raw.all import layer
-from utils import temp
 from typing import Union, Optional, AsyncGenerator
 from pyrogram import types
 from Script import script 
